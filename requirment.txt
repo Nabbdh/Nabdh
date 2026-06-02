@@ -1,0 +1,12 @@
+flask>=3.0
+flask-session>=0.8
+werkzeug>=3.0
+pillow>=10.0
+
+# FREE API providers (no GPU, no credit card needed)
+groq>=0.9                   # Free: 14,400 req/day — get key at console.groq.com
+google-generativeai>=0.8    # Free: 1,500 req/day  — get key at aistudio.google.com
+
+# REMOVED: vllm and torch — these require a GPU and caused the crash
+# vllm>=0.4.0
+# torch>=2.1
